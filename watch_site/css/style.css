@@ -1,0 +1,180 @@
+html {
+box-sizing: border-box;
+font-size: 16px;
+}
+
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+margin: 0;
+padding: 0;
+font-weight: normal;
+}
+
+ol, ul {
+list-style: none;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    
+}
+
+
+.header-container{
+    display: flex;
+    width: 1440px;
+    background-color: #f8f8f8;
+    padding: 104px 133px 168px 133px;
+}
+
+.header-title{
+    margin-bottom: 53px;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 300;
+}
+
+.header-subtitle{
+    font-size: 250px;
+    line-height: 230px;
+    font-weight: 300;
+}
+
+.header-description{
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 300;
+    width: 575px;
+}
+
+.buy-link{
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration: none;
+
+}
+
+.link-box{
+    height: 82px;
+    width: 278px;
+    background-color: #161515;
+    margin-top: 61px;
+    text-align: center;
+    padding: 26px 74px 35px 73px;
+
+}
+
+.price-box{
+    display: flex;
+}
+
+.price{
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: 300;
+    text-align: center;
+    background-color: #ffffff ;
+    width: 143px;
+    height: 82px;
+    margin-top: 61px;
+    padding: 13px 27px 31px 28px;
+
+}
+
+.header-img-wrapper{
+    margin-left: 120px;
+    margin-top: -104px;
+}
+
+.main-container{
+    width: 1440px;
+}
+
+.main-popular{
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 300;
+    margin: 43px 648px 0px 706px ;
+}
+.main-title{
+    font-size: 72px;
+    line-height: 81px;
+    margin: 0px 591px 84px 650px;
+}
+
+.main-card1{
+    width: 417px;
+    height: 630px;
+    background-color: #f8f8f8;
+    margin: 0px 512px 67px 556px;
+    padding: 110px 60px 110px 71px;
+}
+
+.main-subtitle{
+    font-size: 32px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0px 721px 17px 718px;
+}
+
+.main-description{
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 300;
+    width: 531px;
+    text-align: center;
+    margin-left: 494px;
+    margin-bottom: 85px;
+}
+
+.main-card2 {
+    width: 500px;
+    height: 630px;
+    background-color: #f8f8f8;
+    margin-bottom: 67px;
+    margin-left: 502px;
+    /* padding: 0px 65px 0px 65px; */
+}
+
+.main-card2-img{
+    height: 500px;
+    width: 500px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.footer-title{
+    font-size: 32px;
+    line-height: 60px;
+    font-weight: 400;
+    width: 972px;
+    margin: 59px 720px 9px 642px;
+}
+
+.footer-line{
+    width: 178px;
+    height: 1px;
+    background-color: #707070;
+    margin: 0px 580px 49px 680px;
+}
+
+.footer-description{
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+    text-align: center;
+    width: 515px;
+}
+.txt-container{
+    margin: 0px 461px 142px 530px;
+}
