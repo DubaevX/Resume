@@ -51,13 +51,23 @@ SPA-приложение для отображения сделок из amoCRM 
      - `auth_code` (одноразовый)
 
 2. В файле `main.js` укажите:
-   ```javascript
-   const config = {
-     clientId: "ВАШ_CLIENT_ID",
-     clientSecret: "ВАШ_CLIENT_SECRET",
-     authCode: "ВАШ_AUTH_CODE",
-     proxyUrl: "ВАШ_ПРОКСИ",
-     accountDomain: "ВАШ_ДОМЕН"
-   };
+```javascript
+const config = {
+  clientId: "ВАШ_CLIENT_ID",
+  clientSecret: "ВАШ_CLIENT_SECRET",
+  authCode: "ВАШ_AUTH_CODE",
+  proxyUrl: "ВАШ_ПРОКСИ",
+  accountDomain: "ВАШ_ДОМЕН"
+};
+### 3. Тестовые данные
+Создайте в amoCRM:
+- 6 сделок (5 с контактами)
+Задачи с датами:
+- 2 сделки: Вчера
+- 2 сделки: Сегодня
+- 2 сделки: Завтра
+### 4. Запуск
+Откройте index.html через локальный сервер
+Нажмите "Загрузить сделки"
+Кликайте по строкам для детализации
 
-Мой аккаунт: dubaework.amocrm.ru
