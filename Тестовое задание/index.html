@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Сделки amoCRM</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container mt-4">
+      <h1>Сделки amoCRM</h1>
+      <button id="authBtn" class="btn btn-primary mb-3">
+        Загрузить сделки
+      </button>
+      <div
+        id="loader"
+        class="spinner-border"
+        role="status"
+        style="display: none"
+      >
+        <span class="sr-only">Загрузка...</span>
+      </div>
+      <table class="table table-bordered" id="dealsTable">
+        <thead>
+          <tr>
+            <th>ID сделки</th>
+            <th>Название сделки</th>
+            <th>Бюджет</th>
+            <th>Контакт</th>
+            <th>Телефон</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
